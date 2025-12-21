@@ -27,7 +27,10 @@ This is an **architecture and evidence framework**, not a product.
 
 ## Licensing
 This repository is licensed under the Apache License 2.0.
-See the LICENSE file for details.
+Unless otherwise stated, all files in this repository are covered
+by this license.
+
+See LICENSE for details.
 
 ## Disclaimer
 This reference architecture is provided for informational purposes only and is provided “as is”, without warranties or guarantees of any kind.
