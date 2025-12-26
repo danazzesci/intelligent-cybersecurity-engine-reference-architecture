@@ -8,6 +8,7 @@ The diagram is intentionally ASCII to preserve:
 - Copy/paste fidelity
 - Governance traceability
 
+text```
 ┌──────────────────────────────────────────────┐
 │            Security Management Zone           │
 │                                              │
@@ -79,6 +80,7 @@ The diagram is intentionally ASCII to preserve:
                       │ + Scripts)│
                       └───────────┘
 
+```
 
 ## Semantics and Constraints
 
