@@ -49,3 +49,8 @@ A financial institution believes that unauthorized exfiltration of customer data
 ---
 
 In each case, the failure is not one of negligence or bad faith, but of epistemic overreach: beliefs extend beyond what existing tests can support. The service described does not correct systems directly, nor does it claim intelligent or automated judgment. It is an advisory intervention aimed at restoring epistemic proportionality between belief, evidence, and responsibility—allowing executives to know not merely *what they do*, but *what they are entitled to believe*.
+
+---
+
+© 2025 Dan Schaupner  
+Licensed under the Apache License, Version 2.0.

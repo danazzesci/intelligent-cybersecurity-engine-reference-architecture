@@ -30,3 +30,8 @@ For that reason, this statement is not aspirational. It is a **claim of fact abo
 - how changing conditions were detected and brought back to accountable decision-makers.
 
 This makes the statement the **minimum defensible standard** for executive cybersecurity accountability — one that respects the realities of complexity and uncertainty while still demanding evidence of care, judgment, and control.
+
+---
+
+© 2025 Dan Schaupner  
+Licensed under the Apache License, Version 2.0.

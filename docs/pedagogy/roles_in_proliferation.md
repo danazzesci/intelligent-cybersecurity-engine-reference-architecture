@@ -67,3 +67,9 @@
                 • Practitioners control the narrative of reality; they do NOT redefine intent
                 • Managers own judgment; they do NOT touch configs
                 • AI preserves meaning; humans retain authority
+
+
+---
+
+© 2025 Dan Schaupner  
+Licensed under the Apache License, Version 2.0.

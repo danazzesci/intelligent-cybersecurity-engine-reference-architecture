@@ -101,3 +101,8 @@ This amendment reinforces:
 
 It ensures that AI assistance remains subordinate to accountable decision-making
 functions under human governance.
+
+---
+
+© 2025 Dan Schaupner  
+Licensed under the Apache License, Version 2.0.

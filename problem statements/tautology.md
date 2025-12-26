@@ -56,3 +56,8 @@ In all cases, the conclusion is the same:
 > **A belief that cannot be tested by available evidence is not knowledge.**
 
 This remains true whether or not the organization is compliant, active, well-funded, or well-intentioned.
+
+---
+
+© 2025 Dan Schaupner  
+Licensed under the Apache License, Version 2.0.

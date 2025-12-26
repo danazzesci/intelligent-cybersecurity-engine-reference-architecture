@@ -199,3 +199,8 @@ Assumption ∧ Consequence ⇒ Catastrophe
 > **A belief that cannot pass all logical gates cannot be relied upon.**
 
 This remains true regardless of compliance, spend, tooling, or intent.
+
+---
+
+© 2025 Dan Schaupner  
+Licensed under the Apache License, Version 2.0.

@@ -40,3 +40,8 @@ architecture version it explains.
 
 Where practical, transcripts or text summaries SHOULD accompany
 audio or video materials.
+
+---
+
+© 2025 Dan Schaupner  
+Licensed under the Apache License, Version 2.0.

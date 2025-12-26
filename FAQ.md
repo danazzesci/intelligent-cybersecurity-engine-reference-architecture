@@ -196,3 +196,8 @@ The value is **governable uncertainty**—knowing:
 - and where belief and reality diverge.
 
 That is what courts, insurers, regulators, and boards actually expect.
+
+---
+
+© 2025 Dan Schaupner  
+Licensed under the Apache License, Version 2.0.

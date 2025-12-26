@@ -77,3 +77,8 @@ They are consumed by humans.
 
 ICE informs decisions.  
 Humans remain accountable.
+
+---
+
+© 2025 Dan Schaupner  
+Licensed under the Apache License, Version 2.0.

@@ -232,3 +232,8 @@ ICE RA does not promise perfect security. Another way of putting this is that it
 It provides something more durable:
 
 A **structured, testable, evidence-producing method** for ensuring that what leadership believes about security remains aligned with what is actually true — and remains defensible under scrutiny.
+
+---
+
+© 2025 Dan Schaupner  
+Licensed under the Apache License, Version 2.0.

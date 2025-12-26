@@ -173,3 +173,8 @@ This advisory exists to surface where the answer is **no**, without claiming cer
 - No AI or automation is assumed.  
 - Responsibility and judgment remain human.  
 - The goal is to replace **implicit belief** with **explicit, test-backed understanding**.
+
+---
+
+© 2025 Dan Schaupner  
+Licensed under the Apache License, Version 2.0.

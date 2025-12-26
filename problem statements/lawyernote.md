@@ -152,3 +152,8 @@ The result is a way for executives—and their counsel—to demonstrate:
 **without claiming omniscience, certainty, or technological infallibility**.
 
 That distinction is often decisive under scrutiny.
+
+---
+
+© 2025 Dan Schaupner  
+Licensed under the Apache License, Version 2.0.

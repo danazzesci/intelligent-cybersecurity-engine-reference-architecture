@@ -164,3 +164,8 @@ These clusters provide a foundation for:
 - “We believe good security supports long-term value creation.”
 - “We treat cybersecurity as part of operational resilience.”
 - “We consider customer trust a core part of cybersecurity.”
+
+---
+
+© 2025 Dan Schaupner  
+Licensed under the Apache License, Version 2.0.

@@ -153,3 +153,8 @@ The `components/` directory is where:
 - What we **suspect** is challenged  
 
 It is the structural backbone for evidence-based governance of complex systems.
+
+---
+
+© 2025 Dan Schaupner  
+Licensed under the Apache License, Version 2.0.

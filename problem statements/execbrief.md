@@ -218,3 +218,8 @@ It is about ensuring that executive beliefs are:
 - defensible when it matters most.
 
 That’s how organizations move from anxiety to informed control — without claiming omniscience.
+
+---
+
+© 2025 Dan Schaupner  
+Licensed under the Apache License, Version 2.0.

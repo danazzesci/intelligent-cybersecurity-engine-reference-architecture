@@ -65,3 +65,8 @@ Scripts detect mismatch      → DELTA
 (Optional) Model X classifies → XRESULT
 Engine X creates OPEN ISSUE  → Storage X
 OPEN ISSUE presented to cognizant decision-making
+
+---
+
+© 2025 Dan Schaupner  
+Licensed under the Apache License, Version 2.0.

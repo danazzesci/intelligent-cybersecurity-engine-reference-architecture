@@ -248,3 +248,8 @@ Model X adds value by producing **meta-evidence about evidence**,
 not by issuing security judgments.
 
 That is how Model X remains additive—without becoming a liability.
+
+---
+
+© 2025 Dan Schaupner  
+Licensed under the Apache License, Version 2.0.

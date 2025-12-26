@@ -45,3 +45,8 @@ These beliefs:
 - “We accept residual risk consciously rather than ignoring it.”
 - “We believe our cybersecurity program reflects thoughtful judgment, not box-checking.”
 - “We believe we are meeting our responsibilities as leaders.”
+
+---
+
+© 2025 Dan Schaupner  
+Licensed under the Apache License, Version 2.0.

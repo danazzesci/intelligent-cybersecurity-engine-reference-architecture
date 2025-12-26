@@ -36,3 +36,8 @@ Pedagogical materials may be used by:
 
 Unless otherwise stated, content in this directory is licensed under
 the Apache License, Version 2.0.
+
+---
+
+© 2025 Dan Schaupner  
+Licensed under the Apache License, Version 2.0.
