@@ -124,4 +124,7 @@ This repository is **intentionally opinionated**, evolving, and designed to be c
 If you disagree with a belief, test, or assumption — that is not a flaw.
 That is the point.
 
-(c) 2025 Dan Schaupner
+---
+
+© 2025 Dan Schaupner  
+Licensed under the Apache License, Version 2.0.
