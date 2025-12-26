@@ -101,7 +101,7 @@ ICE RA mental model (belief → test → truth → evidence)
                            +-------------------+
 
 This mental model emphasizes that ICE RA is not validating tools in isolation — it is measuring whether belief, testing, and observed reality remain aligned over time.
-
+```
 ---
 
 
@@ -144,7 +144,7 @@ ICE RA examines whether those tests are **adequate given the meaning management 
 ---
 ## The “Alligator Probe” View of a Security Boundary
 The diagram below illustrates ICE RA’s core measurement concept: probing a security zone interface to measure evidence of enforcement, not trust or intent.
-
+```text
 “Alligator probe” view (clipped across a zone boundary)
 
                  (Zone A / higher trust)                         (Zone B / lower trust)
@@ -185,6 +185,7 @@ The diagram below illustrates ICE RA’s core measurement concept: probing a sec
                                    |  - over-control / excess cost?    |
                                    +-----------------------------------+
 
+```
 
 This view highlights a critical distinction: a boundary may appear secure because a rule exists, while still allowing unauthorized data flow through application-layer channels, identity misuse, or service edges.
 
