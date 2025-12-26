@@ -1,3 +1,5 @@
+
+```text
                     ┌──────────────────────────────────────┐
                     │        Security Management Zone       │
                     │                                      │
@@ -46,7 +48,7 @@ Derived BELIEF      │   │ (Scripts +   │  R/W │ (BELIEF, │ │
                      │        Firewall Fx       │
                      │   (Admin Tap / Control   │
                      └──────────────────────────┘
-
+```
 ---
 
 © 2025 Dan Schaupner  
