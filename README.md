@@ -1,101 +1,182 @@
-# Intelligent Cybersecurity Engine — Reference Architecture
+# Intelligent Cybersecurity Engine (ICE)  
+## Reference Architecture for Evidence-Based Cybersecurity Governance
+
+---
 
 ## Purpose
 
 This repository defines a **reference architecture and evidence framework** for intelligent cybersecurity governance.
 
-Its purpose is to maintain alignment between:
+Its purpose is to preserve alignment between:
 
-- Declared executive and organizational **beliefs** about cybersecurity
-- Observable system behavior and **testing**
-- The resulting **evidence** required for executive, regulatory, fiduciary, and legal scrutiny
+- Declared executive and organizational **beliefs**
+- Observable system behavior through **testing**
+- Durable, reviewable **evidence** suitable for executive, regulatory, fiduciary, insurance, and legal scrutiny
 
-The core problem addressed is simple but systemic:
+The core problem addressed is systemic and recurring:
 
 > **How do we know whether belief has outpaced evidence — and what happens when it does?**
 
-This repository provides a structured answer.
+This repository provides a structured, testable answer.
 
 ---
 
 ## What This Is
 
 - A **reference architecture**, not a product
-- A formal model for:
-  - **BELIEF → TEST → TRUTH → DRIFT → OPEN ISSUE**
-- An **evidence loop** designed to support accountable decision-making
-- A governance-aligned framework that explicitly avoids assumptions of executive omniscience or omnipresence
-- A shared language usable by:
-  - Engineers
-  - Security practitioners
-  - Executives and boards
-  - Legal, audit, and risk functions
+- A formal epistemic model:
+  
+  **BELIEF → TEST → TRUTH → DRIFT → OPEN ISSUE**
+
+- An **AI-assisted evidence loop** designed to surface misalignment early
+- A governance-aligned framework that assumes:
+  - Executives are not omniscient
+  - Oversight must survive change, churn, and scale
+- A shared language usable across:
+  - Engineering
+  - Security operations
+  - Executive leadership
+  - Legal, audit, risk, and insurance functions
 
 ---
 
 ## What This Is Not
 
-- Not an autonomous cybersecurity decision-maker
-- Not a replacement for human judgment, governance, or accountability
-- Not a vendor comparison, control catalog, or tooling recommendation
-- Not a guarantee of security outcomes
+- ❌ Not an autonomous security decision system  
+- ❌ Not a replacement for human judgment or accountability  
+- ❌ Not a vendor comparison, control catalog, or tooling prescription  
+- ❌ Not a guarantee that incidents will not occur  
 
-Security incidents may still occur. This architecture addresses **defensibility, alignment, and evidence**, not perfection.
+Security incidents may still happen.
+
+This architecture addresses **defensibility, alignment, and evidence of care** — not perfection.
+
+---
+
+## Core Conceptual Model
+
+Cybersecurity failures rarely occur because controls do not exist.  
+They occur because **beliefs about those controls are never tested**.
+
+This architecture explicitly models that gap:
+
+- **BELIEF**  
+  What leadership believes to be true about protection, compliance, safety, or risk
+
+- **TEST**  
+  Deterministic, repeatable challenges to those beliefs
+
+- **TRUTH**  
+  Observed system behavior derived from tests, logs, and configuration state
+
+- **DRIFT**  
+  Any mismatch between BELIEF and TRUTH
+
+- **OPEN ISSUE**  
+  A surfaced, retained, decision-bound object requiring human disposition
+
+Drift is inevitable.  
+**Unmanaged drift is negligent.**
 
 ---
 
 ## Repository Structure
 
 ### Core Concepts
+
 - `/components/beliefs`  
-  Canonical executive belief statements, well-intended beliefs, and common belief patterns — including **Statement 1**, the executive accountability baseline.
+  Canonical belief statements, executive commitments, and common belief patterns — including **Statement 1**, the executive accountability baseline.
 
 - `/docs/architecture`  
-  Architecture definitions, reference models, and ASCII diagrams describing how belief, testing, evidence, and drift interact.
+  Reference architecture definitions, control-loop descriptions, and ASCII diagrams explaining how belief, testing, evidence, and drift interact.
 
 - `/docs/architecture/xresults`  
-  XRESULT definitions — structured classifications explaining *why* belief and observed truth diverge.
+  **XRESULT** definitions — structured classifications explaining *why* belief and observed truth diverge (e.g., ambiguity, scope collapse, semantic drift, knowledge decay).
 
 - `/docs/pedagogy`  
-  Role definitions and learning models explaining how engineers, lawyers, practitioners, and managers interact within the system.
+  Role-based learning models explaining how:
+  - Engineers
+  - Security practitioners
+  - Managers
+  - Lawyers and auditors  
+  interact within the architecture.
 
 ---
 
 ### Supporting Material
+
 - `/diagrams`  
-  Visual representations of the reference architecture and flows.
+  Visual representations of architecture flows and evidence loops.
 
 - `/examples`  
-  Illustrative examples and scenarios (non-production).
+  Non-production illustrative examples showing how beliefs, tests, and results are expressed.
 
 - `/cases`  
-  Case-style narratives demonstrating belief, drift, and accountability failure or success.
+  Case-style narratives demonstrating belief validation, drift detection, and accountability outcomes.
 
 - `/stories`  
-  Explanatory narratives intended to build intuition across disciplines.
+  Cross-disciplinary narratives designed to build intuition and shared understanding.
 
 - `/problem statements`  
-  Framing documents describing the real-world problems this architecture addresses.
+  Framing documents describing the real-world failures this architecture is intended to correct.
 
 ---
 
 ### Project Metadata
-- `SECURITY.md` — Security and responsible disclosure guidance
-- `TRADEMARK.md` — Trademark and naming guidance
-- `FAQ.md` — Common questions and clarifications
-- `LICENSE` — Apache License 2.0
+
+- `SECURITY.md` — Responsible disclosure guidance  
+- `TRADEMARK.md` — Naming and trademark guidance  
+- `FAQ.md` — Common questions and clarifications  
+- `LICENSE` — Apache License 2.0  
+
+---
+
+## Role of AI (Explicitly Bounded)
+
+AI is **not** used as an autonomous decision-maker.
+
+Within this architecture, AI is intentionally constrained to:
+
+- Semantic memory across heterogeneous evidence
+- Translation between human intent and machine-consumable structure
+- Cross-artifact consistency checking
+- Drift classification and explanation
+- Evidence synthesis and compression
+- Local, bounded optimization **by recommendation only**
+
+All policy, risk acceptance, enforcement, and judgment remain **human-governed**.
+
+This boundary is intentional — and defensible.
 
 ---
 
 ## Design Principles
 
-This architecture is built on several non-negotiable principles:
+This architecture is built on non-negotiable principles:
 
-- **Executives are not omniscient**
-- **Oversight is a system, not a feeling**
-- **Belief without testing is risk**
-- **Evidence must survive personnel, tooling, and environmental change**
-- **Drift is inevitable — unmanaged drift is negligent**
+- Executives are not omniscient
+- Oversight is a system, not a feeling
+- Belief without testing is risk
+- Evidence must survive:
+  - Personnel turnover
+  - Tool churn
+  - Architectural change
+- Drift is inevitable — silence about drift is the failure
+
+---
+
+## Status
+
+This repository is:
+
+- Intentionally opinionated
+- Actively evolving
+- Designed to be challenged
+
+Disagreement is not a flaw.
+
+If a belief, test, or assumption here makes you uncomfortable —  
+**that discomfort is the signal this architecture is meant to surface.**
 
 ---
 
@@ -103,7 +184,7 @@ This architecture is built on several non-negotiable principles:
 
 This repository is licensed under the **Apache License 2.0**.
 
-Unless otherwise stated, all files in this repository are covered by this license.
+Unless otherwise stated, all contents are covered by this license.
 
 See `LICENSE` for details.
 
@@ -113,18 +194,11 @@ See `LICENSE` for details.
 
 This reference architecture is provided for informational and educational purposes only and is provided **“as is”**, without warranties or guarantees of any kind.
 
-Adopters are responsible for their own implementation, validation, governance decisions, and operational outcomes. Nothing in this repository constitutes legal, regulatory, or security advice.
+Adopters are responsible for their own implementation, validation, governance decisions, and operational outcomes.
 
----
-
-## Status
-
-This repository is **intentionally opinionated**, evolving, and designed to be challenged.
-
-If you disagree with a belief, test, or assumption — that is not a flaw.
-That is the point.
+Nothing in this repository constitutes legal, regulatory, or security advice.
 
 ---
 
 © 2025 Dan Schaupner  
-Licensed under the Apache License, Version 2.0.
+Licensed under the Apache License, Version 2.0
