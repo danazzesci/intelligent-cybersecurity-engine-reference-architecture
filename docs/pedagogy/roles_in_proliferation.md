@@ -1,3 +1,4 @@
+```
                     ┌──────────────────────────────────────────────┐
                     │      FIDUCIARY–TECHNICAL EVIDENCE LOOP        │
                     │   (Authority down • Evidence up • Agency in)  │
@@ -68,7 +69,7 @@
                 • Managers own judgment; they do NOT touch configs
                 • AI preserves meaning; humans retain authority
 
-
+```
 ---
 
 © 2025 Dan Schaupner  
