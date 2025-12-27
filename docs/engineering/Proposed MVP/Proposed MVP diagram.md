@@ -90,7 +90,6 @@
 │  │   open external ticket        │                                            │
 │  └──────────────────────────────┘                                            │
 └──────────────────────────────────────────────────────────────────────────────┘
-```
 
 KEY CONSTRAINTS (MVP)
 ────────────────────
@@ -99,6 +98,7 @@ KEY CONSTRAINTS (MVP)
 • Model ≠ Authority
 • Oversight remains human
 
+```
 NOTE
 ────
 This MVP flow has NOT yet been validated in a live lab as of the date this
