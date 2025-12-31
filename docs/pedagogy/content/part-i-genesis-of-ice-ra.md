@@ -42,7 +42,7 @@ The prevailing assumption was that AI would act as an agent — making automated
 
 Two constraints quickly became clear.
 
-First, **trust and supervision**. Even mature AI systems require human oversight to ensure legality, ethics, and alignment with organizational intent. Fully autonomous control introduces governance risk.
+First, **trust and supervision**. Even mature AI systems require human oversight to ensure legality, ethics, and alignment with organizational intent. Fully autonomous control introduces governance risk by shifting accountability without consent or clarity.
 
 Second, **deterministic reality**. Scripts, control loops, and bounded automation already provide reliable enforcement, detection, and response. Much of what is marketed as “AI automation” is already achievable without probabilistic decision-making.
 
@@ -65,6 +65,8 @@ AI is well-suited to:
 - Detecting gaps between belief and evidence
 - Identifying failures of assumption, not just failures of configuration
 
+**Not all beliefs are testable.** ICE focuses only on beliefs that *imply operational claims* — statements whose truth would require certain controls, behaviors, or outcomes to exist. These implications define the scope of testing and prevent infinite regress.
+
 This distinction became foundational.
 
 [Back to Table of Contents](#toc)
@@ -81,6 +83,8 @@ To test this idea, we deliberately chose a simple scenario:
 - Validation using simple tools
 
 The goal was not sophistication, but clarity.
+
+This example is intentionally basic not because practitioners misunderstand it, but because organizations routinely **over-interpret what it proves**. The problem is not technical ignorance — it is governance translation.
 
 We wanted to know whether a system could evaluate whether a safeguard actually supports the organization’s belief about security.
 
@@ -101,7 +105,7 @@ But none of that proves the belief:
 
 > “We are secure.”
 
-Permitting only a specific port does not prevent unauthorized or malicious activity from occurring over that channel. A firewall can pass all functional tests and still fail to support the broader belief it is implicitly used to justify.
+“Secure” is not a single claim. It is a bundle of scoped assertions about what must *not* happen. Permitting only a specific port does not prevent unauthorized or malicious activity from occurring over that channel. A firewall can pass all functional tests and still fail to support the broader belief it is implicitly used to justify.
 
 This was the turning point.
 
@@ -118,9 +122,9 @@ Executives often operate under an implicit belief:
 > We spend money on security.  
 > Therefore, we are secure.”
 
-Practitioners know this belief is incomplete, but it persists because it is rarely tested explicitly.
+Practitioners know this belief is incomplete, but it persists because it is rarely decomposed into testable implications.
 
-The ICE approach demonstrates that beliefs themselves can be tested — not exhaustively, but materially and defensibly.
+The ICE approach demonstrates that **beliefs can be tested when they are bounded by risk and scope** — not exhaustively, but materially and defensibly. Each belief is treated as a hypothesis that implies specific safeguards must behave in specific ways.
 
 AI’s role is to surface where evidence supports a belief and where it does not.
 
@@ -139,7 +143,8 @@ When incidents occur, the failure is rarely framed as negligence. It is framed a
 
 > “We thought this meant we were safe.”
 
-This is the origin of the post-incident “I thought.”
+This is the origin of the post-incident “I thought.”  
+“I thought” appears whenever an implied belief was never turned into a test.
 
 ICE exists to prevent that sentence from being true.
 
@@ -150,19 +155,21 @@ ICE exists to prevent that sentence from being true.
 <a id="bounded-ai"></a>
 ## 8. The Proper, Bounded Role of AI
 
-Everything described so far could be discovered without AI.
+At this point, the design intent becomes explicit.
+
+Everything described so far could be discovered without AI. What fails in practice is **scale, continuity, and memory**. Beliefs change slowly, environments change constantly, and organizations lose the thread between intent and evidence over time.
 
 AI matters because it makes belief testing systematic and scalable by:
 - Reasoning across many configurations and tests
-- Recognizing repeated assumption failures
-- Highlighting where belief overreaches evidence
+- Preserving linkage between belief, control, and outcome
+- Recognizing repeated assumption failures as environments evolve
 
 Critically:
 - AI does not decide policy  
 - AI does not enforce controls  
 - AI does not redefine risk  
 
-AI evaluates whether what we think is true is actually supported by evidence.
+AI evaluates whether what we think is true is actually supported by evidence, and returns that assessment to human decision-makers.
 
 [Back to Table of Contents](#toc)
 
@@ -171,15 +178,15 @@ AI evaluates whether what we think is true is actually supported by evidence.
 <a id="regulatory"></a>
 ## 9. Regulatory and Legal Alignment
 
-As this architecture matured, it aligned directly with European regulatory expectations that place responsibility on management to continuously verify that safeguards remain aligned with intent.
+As this architecture matured, it aligned directly with regulatory expectations that place responsibility on management to **continuously verify** that safeguards remain aligned with intent.
 
-The simple firewall example illustrates exactly the type of belief drift modern regulation seeks to prevent.
+The simple firewall example illustrates exactly the type of belief drift modern regulation seeks to prevent: controls that function as designed but fail to support the claims made about them.
 
 In more litigious environments, scrutiny is often retrospective and framed as:
 
 > “What did you know, and when did you know it?”
 
-ICE exists to answer that question before it is asked under pressure.
+ICE exists to ensure that question can be answered with contemporaneous evidence rather than reconstruction under pressure.
 
 [Back to Table of Contents](#toc)
 
@@ -194,28 +201,8 @@ We ended with a more important conclusion:
 
 **AI’s highest value in cybersecurity is preserving alignment between belief, behavior, and evidence over time.**
 
-That insight is the foundation of the Intelligent Cybersecurity Engine (ICE) Reference Architecture.
+ICE is not a product, a model, or a control. It is a **reference architecture and operating pattern** for governing cybersecurity claims with discipline.
 
 This document represents the first pedagogical installment explaining why that architecture exists. The form may evolve — the core does not.
 
 [Back to Table of Contents](#toc)
-
----
-
-## License & Copyright
-
-© 2025 Dan Schaupner
-
-Licensed under the **Apache License, Version 2.0** (the “License”);  
-you may not use this file except in compliance with the License.
-
-You may obtain a copy of the License at:
-
-http://www.apache.org/licenses/LICENSE-2.0
-
-Unless required by applicable law or agreed to in writing, software and documentation  
-distributed under the License is distributed on an **“AS IS” BASIS**,  
-WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-
-See the License for the specific language governing permissions and  
-limitations under the License.
