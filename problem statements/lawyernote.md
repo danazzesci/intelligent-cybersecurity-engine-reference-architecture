@@ -1,5 +1,28 @@
-# Note for Corporate Counsel  
+# Note for Counsel  
 ## Executive Cyber Risk Belief vs. Defensible Reality
+
+---
+
+## Why This Matters to Counsel
+
+This framework addresses the precise gap that surfaces in:
+
+- regulatory enforcement actions,  
+- shareholder litigation,  
+- insurance coverage disputes, and  
+- post-incident executive testimony.  
+
+It distinguishes between **having controls** and **holding defensible beliefs**.
+
+The result is a way for executives—and their counsel—to demonstrate:
+
+- informed oversight,  
+- reasoned belief formation, and  
+- good-faith reliance on evidence,  
+
+**without claiming omniscience, certainty, or technological infallibility**.
+
+That distinction is often decisive under scrutiny.
 
 ---
 
@@ -26,6 +49,8 @@ That assertion is tested against outcomes that include, among other things:
 The legal question is not whether this belief was sincerely held, but whether it was **reasonable, informed, and evidentially supported** at the time it was held.
 
 ---
+
+
 
 ## Governing Reality (Often Misunderstood)
 
@@ -132,28 +157,7 @@ It evaluates whether beliefs were **defensibly supported**.
 
 ---
 
-## Why This Matters to Counsel
 
-This framework addresses the precise gap that surfaces in:
-
-- regulatory enforcement actions,  
-- shareholder litigation,  
-- insurance coverage disputes, and  
-- post-incident executive testimony.  
-
-It distinguishes between **having controls** and **holding defensible beliefs**.
-
-The result is a way for executives—and their counsel—to demonstrate:
-
-- informed oversight,  
-- reasoned belief formation, and  
-- good-faith reliance on evidence,  
-
-**without claiming omniscience, certainty, or technological infallibility**.
-
-That distinction is often decisive under scrutiny.
-
----
 
 © 2025 Dan Schaupner  
 Licensed under the Apache License, Version 2.0.
